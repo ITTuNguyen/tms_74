@@ -1,0 +1,93 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  title: "Framgia Training System"
+  home: "Home"
+  course: "Courses"
+  subject: "Subjects"
+  task: "Tasks"
+  user: "Users"
+  layouts:
+    application:
+      init: "InitProject"
+    header:
+      logo: "Framgia Training"
+      username: "Alexander Pierce"
+      calendar: "Member since Nov. 2012"
+      followers: "Followers"
+      friends: "Friends"
+      profile: "Profile"
+      sign: "Sign out"
+    footer:
+      copy: "2017 "
+      name: "Framgia Training System."
+    right-bar:
+      username: "Alexander Pierce"
+      active: "Online"
+      main: "MAIN NAVIGATION"
+      dashboard: "Dashboard"
+      course: "Courses"
+      users: "users"
+  views:
+    index:
+      home:
+        dashboard: "Dashboard"
+        panel: "Control panel"
+        more_info: "More info"
+        trainers:
+          num: "6"
+          name: "Trainers"
+        trainee:
+          num: "40"
+          name: "Trainee"
+        course:
+          num: "4"
+          name: "Course"
+        map: "Maps"
+        visitors: "Visitors"
+    courses:
+      course: "Courses"
+      ma: "[DN-OE09-Ruby]"
+      name: "Da Nang Open Batch 9"
+      detail: "Ruby Open Education training"
+      numtrainers: ": 3"
+      numtrainee: ": 19"
+    subjects:
+      sub: "Subjects"
+      name: "Git Tutorial "
+      time: "2 days"
+      detail: "Start Git for your project today."
+      link: "[Show content]"
+    tasks:
+      h3: "Trainees progress"
+      name: "From zero to deploy"
+      detail: "Get an introduction to numbers, Strings, properties, and methods."
